@@ -49,9 +49,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             width: double.infinity,
             height: double.infinity,
+            child:Center(
+              child: Text('CADT STUDENT',
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.white),
+              ),
+            ) ),
           ),
         ),
-      ),
-    );
+      );
   }
 }
